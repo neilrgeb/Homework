@@ -1,0 +1,86 @@
+body {
+  background: rgb(255, 255, 255);
+}
+
+.box{
+  padding: 50px;
+  background: rgb(230, 231, 236);
+  margin-top:50px;
+  margin-left:5px;
+  margin-right:5px;
+  margin-bottom:20px;
+  align-content: center;
+}
+
+.navbar {
+  background:rgb(230, 231, 236);
+}
+
+img{
+  width:100% ;
+  height:100% ;
+}
+
+.navigation .navbar-brand{
+  color: white; 
+  margin-left: 20px; 
+  padding: inherit; 
+  font-weight: bold; 
+  background-color: rgb(25, 13, 190);
+}
+
+p {
+  font-size: 20px;
+  align-content: center;
+  padding-top: 15px;
+} 
+
+.navbar li {
+  display: d-block;
+  padding: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+h1 {
+  font-size: 45px;
+}
+h2 {
+  font-size: 30px;
+}
+
+.title{
+  color: rgb(25, 13, 190);  
+  font-weight: bold; 
+  padding-top: 7px;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .navbar li {
+    padding: 15px;
+  }
+  .box {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .navbar ul {
+    visibility: hidden;
+  }
+  #nav-select {
+    visibility: visible;
+  }
+}
+
+
+@media only screen and (max-width: 720px) {
+
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+
+
+
+
