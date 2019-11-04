@@ -5,10 +5,6 @@ var lightmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/light-v9/til
     accessToken: "pk.eyJ1IjoibmVpbHJnZWIiLCJhIjoiY2syamoweG8yMDB4bzNjcnlyYWZteThlNiJ9.g5vPeeBUNfWyqbNdEIcAMQ"
 });
 
-
-var baseMaps = {
-    "Light Map": lightmap
-};
 // create map
 var map = L.map("mymap", {
     center: [39.0, -105.0],
